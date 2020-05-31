@@ -1,0 +1,169 @@
+/*
+ * Globals
+ */
+
+ .video-background-holder {
+  position: relative;
+  background-color: rgb(1, 10, 19);
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(1, 10, 19);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: 'undefined-medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/undefined-medium.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/undefined-medium.eot?#iefix") format("embedded-opentype"); /* IE6-IE8 */
+  src:
+  url("/fonts/undefined-medium.woff") format("woff"),
+  url("/fonts/undefined-medium.woff2") format("woff2"),
+  url("/fonts/undefined-medium.otf") format("opentype"),
+  url("/fonts/undefined-medium.ttf") format("truetype");
+  }
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.lang-en {
+  color: cyan !important;
+}
+
+.lang-pt {
+  color: #00D250 !important;
+}
+
+#yell {
+  color: rgb(241, 250, 140);
+}
+
+#sec3 {
+  font-weight: bold;
+  color: rgb(139, 233, 253);
+}
+
+#sec4 {
+  font-weight: 900;
+}
+
+#list1, #list2, #list3, #list4 {
+  font-style: italic;
+}
+
+#list1, #list3 {
+  color: rgb(255, 30, 50);
+}
+
+#list2, #list4 {
+  color: rgb(145 ,255 ,255);
+}
+
+.modal-content {
+  background-color: rgb(82, 82, 82);
+}
+
+.spelldesc {
+  color: rgba(203, 202, 255, 0.842);
+}
+
+.popover {
+  z-index: 9999 !important;
+}
+
+.imgicon {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  height: 70px;
+  width: 70px;
+  outline: none !important;
+}
+
+.foot {
+  border-top: 1px solid;
+  border-top-color: gray;
+}
+
+.disbtn {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  height: 70px;
+  width: 70px;
+  outline: none !important;
+}
+
+button:hover, button:checked {
+  border: none !important;
+  background: transparent;
+  outline: none !important;
+}
+
+.betabtn {
+  border: none !important;
+  background: transparent;
+  outline: none !important;
+  color: #fff !important;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(1, 10, 19);
+}
+
+header {
+  background-color: rgba(1, 10 ,19);
+}
+
+body {
+  color: #fff;
+  font-family: 'undefined-medium' !important;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}

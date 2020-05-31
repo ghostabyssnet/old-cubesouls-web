@@ -1,0 +1,224 @@
+* {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  border-radius: 0px !important;
+  margin-right: 0px !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,900&display=swap');
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 200%;
+    background-repeat: repeat-y;
+    background-size: 60%;
+    background-position: 0 50%;
+    z-index: -1;
+}
+
+nav { 
+  background-color: rgb(40, 40, 40);
+  z-index: 1000;
+}
+@font-face {
+    font-family: 'undefined-medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/undefined-medium.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/undefined-medium.eot?#iefix") format("embedded-opentype"); /* IE6-IE8 */
+    src:
+    url("/fonts/undefined-medium.woff") format("woff"),
+    url("/fonts/undefined-medium.woff2") format("woff2"),
+    url("/fonts/undefined-medium.otf") format("opentype"),
+    url("/fonts/undefined-medium.ttf") format("truetype");
+    }  
+
+@font-face {
+  font-family: 'Bitter-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Bitter-Regular.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/Bitter-Regular.eot?#iefix") format("embedded-opentype"); /* IE6-IE8 */
+  src:
+  url("/fonts/Bitter-Regular.woff") format("woff"),
+  url("/fonts/Bitter-Regular.woff2") format("woff2"),
+  url("/fonts/Bitter-Regular.otf") format("opentype"),
+  url("/fonts/Bitter-Regular.ttf") format("truetype");
+  }
+
+.cubesouls {
+  font-family: 'undefined-medium';
+}
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.lang-en {
+  color: cyan !important;
+}
+
+.lang-pt {
+  color: #00D250 !important;
+}
+
+.modal-content {
+  background-color: rgb(82, 82, 82);
+}
+.headerword {
+    font-size: 16px;
+}
+.imgicon {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  height: 70px;
+  width: 70px;
+  outline: none !important;
+  z-index: 9999;
+}
+
+.foot {
+  border-top: 1px solid;
+  border-top-color: gray;
+}
+
+.disbtn {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  height: 70px;
+  width: 70px;
+  outline: none !important;
+}
+
+button:hover, button:checked {
+  border: none !important;
+  background: transparent;
+  outline: none !important;
+}
+
+.betabtn {
+  border: none !important;
+  background: transparent;
+  outline: none !important;
+  color: #fff !important;
+}
+
+header {
+  font-family: 'Bitter-Regular' !important;
+  background:  rgb(9, 10, 15);
+  color: gainsboro;
+}
+
+body {
+  font-family: 'Bitter-Regular' !important;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.firstcabin {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cards {
+  height: 18rem;
+}
+
+.card-body, .card {
+    background-color: rgba(40, 40, 150, 0.1);
+}
+
+.card {
+    color: gainsboro;
+    text-shadow: 3px 3px 6px rgb(10, 10, 10);
+}
+
+.card-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    color: orchid;
+}
+
+#timeline, #timeline2, #timeline3, #timeline4 {
+  font-style: 'Source Sans Pro', sans-serif !important;
+  color: gainsboro;
+}
+
+#timeline {
+  background-color: rgba(40, 40, 40, 0.4);
+}
+
+#timeline2 {
+  background-color: rgba(70, 70, 70, 0.4);
+}
+
+#timeline3 {
+  background-color: rgba(90, 90, 90, 0.4);
+}
+
+#timeline4 {
+  background-color: rgba(120, 120, 120, 0.4);
+}
+
+#deltoro {
+  background-color: transparent;
+  border-color: transparent;
+  color: orangered;
+  font-family: 'Bitter-Regular', sans-serif;
+  font-size: 48px;
+}
+
+#firstal {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgba(192, 168, 10, 0.2);
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgb(160, 7, 160);
+}
+
+.futaborder {
+  border-bottom: 1px;
+}
+
+.storywriter {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(200, 200, 200);
+    border-top-color: rgba(68, 44, 156, 0.7) !important;
+    border-bottom-color: rgba(82, 82, 82, 0.452) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jumbo {
+  background-color: rgba(82, 82, 255, 0.1);
+  color: ghostwhite;
+}
+
+.btn-dark {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.jumbotitle {
+  font-family: 'undefined-medium', sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
