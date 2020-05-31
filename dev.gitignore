@@ -1,4 +1,3 @@
-# 30/05/20 chad
-
-node_modules/
+# see
+**/node_modules/
 *.json
