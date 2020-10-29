@@ -160,6 +160,9 @@ header {
     font-weight: 200;
 }
 
+.xuehuapiao {
+  font-family: 'undefined-medium' !important;
+}
 
 .card-img {
   filter: blur(2px);

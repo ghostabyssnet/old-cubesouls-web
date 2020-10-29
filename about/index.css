@@ -5,7 +5,8 @@
     border-radius: 0px !important;
     margin-right: 0px !important;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,900&display=swap');
+
   @font-face {
     font-family: 'undefined-medium';
     font-style: normal;
@@ -88,7 +89,19 @@
   }
   
 .card, .card-deck {
-    background-color: rgba(40, 40, 40, 0.1);
+    background-color: rgba(80, 80, 80, 0.1);
+}
+
+.subt { 
+  font-size: 48px;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(231, 175, 22);
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.brtt {
+  font-size: 24px;
 }
 
 header {
@@ -98,6 +111,7 @@ header {
 .card-title {
     font-size: 64px;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: 'undefined-medium', sans-serif !important;
 }
 
 
