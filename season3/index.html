@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Season 3</title>
+
+    <!-- Bootstrap core CSS -->
+
+<link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <header class="masthead mb-auto text-center">
+    <div class="inner">
+      <h3 class="masthead-brand"><a href="/index.html">cst</a>/ Season 3</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="#">Home</a>
+        <button type="button" class="btn betabtn" data-toggle="modal" data-target="#betamodal">
+          Beta
+        </button>
+        <button type="button" class="btn betabtn" data-toggle="modal" data-target="#contactmodal">
+          Contact
+        </button>
+        <a href="#" class="nav-link lang-en">English</a>
+        <a href="/season3/pt.html" class="nav-link lang-pt">Português</a>
+      </nav>
+    </div>
+<div class="video-background-holder">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/media/cstbg.mp4" type="video/mp4">
+  </video>
+  <div class="video-background-content container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-4">We tried. :(</h1>
+        <p class="lead mb-0">Season 3 has been CANCELLED. It was a project set to recreate the old MOBA experience using oldschool character and item designs, focusing on fun instead of competition.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="py-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <p class="lead" style="display:inline">MOBAs are no longer inherently fun for most people. Our days of laughing at instant one hit kills and absurd health bars were replaced by frustration of being victim of those very things -- all because of <span id="yell">"virtual points"</span>.</p>
+        <br><br>
+        <p class="lead" id="sec3" style="display:inline">What if we could go back?</p>
+        <span class="lead">What if we were able to play our favourite characters without having them completely toned down or removed by game updates, the hassle of facing unkillable assassin mage necromancer cleric red goats or being forced to tolerate griefers to avoid being banned?</span>
+        <br><br><br><br>
+        <h2 class="display-3" id="sec4">ENTER SEASON 3</h2>
+        <br><br><br><br>
+        <p class="lead">The Season 3 project aims to bring us back to the old times. Pick any hero, play it the way you want to, buy and test strange items. <span style="color: rgb(80, 250, 123); font-weight: bold;">It's 2013 again!</span></p>
+        <ul class="list-unstyled">
+          <li class="media">
+            <button type="button" class="disbtn" data-toggle="modal" data-target="#modal1"> 
+              <img class="mr-3 rounded border border-danger" src="/media/s3_64.png" alt="Season 3">
+            </button>
+            <div class="media-body" id="list1">
+              <h3 class="mt-0 mb-1" style="color: white; font-weight: bold; font-style: normal !important;">Zuki</h3>
+              Accursed and forgotten, Zuki enters the Black Forest seeking an worthy opponent. Her ultimate causes her to lunge around the battlefield, dealing damage while invulnerable.
+            </div>
+          </li>
+          <li class="media my-4">
+            <button type="button" class="disbtn" data-toggle="modal" data-target="#modal2"> 
+              <img class="mr-3 rounded border border-info" src="/media/s3_64.png" alt="Season 3">
+            </button>
+            <div class="media-body" id="list2">
+              <h3 class="mt-0 mb-1" style="color: white; font-weight: bold; font-style: normal !important;">Ring of Hatred</h3>
+              This item grants ability power, cooldown reduction and an active that deals damage and increases all magic damage the target receives.
+            </div>
+          </li>
+          <li class="media my-4">
+            <button type="button" class="disbtn" data-toggle="modal" data-target="#modal3"> 
+              <img class="mr-3 rounded border border-danger" src="/media/s3_64.png" alt="Season 3">
+            </button>
+            <div class="media-body" id="list3">
+              <h3 class="mt-0 mb-1" style="color: white; font-weight: bold; font-style: normal !important;">Corrus</h3>
+              One of the Palemoon Kingdom's marquesses, Corrus is an notoriously powerful vampire. Using his claws and fangs, his powers heal himself as he damages his foes. However, the marquess can also sacrifice his health to increase his strength.
+            </div>
+          </li>
+          <li class="media">
+            <button type="button" class="disbtn" data-toggle="modal" data-target="#modal4"> 
+              <img class="mr-3 rounded border border-info" src="/media/s3_64.png" alt="Season 3">
+            </button>
+            <div class="media-body" id="list4">
+              <h3 class="mt-0 mb-1" style="color: white; font-weight: bold; font-style: normal !important;">Nature's Cowl</h3>
+              Season 3 will not only feature items from the 2013 era, but also community favourites! We think it's fun to let you choose by yourself what you're going to use.
+            </div>
+          </li>
+        </ul>
+        <br><br>
+        <h2>Join our <a href="https://discord.gg/TjABeh9" style="color: #7289DA;">Discord</a> and follow us on <a href="https://twitter.com/season3game" style="color: cyan;">Twitter</a> and <a href="https://reddit.com/r/season3game" style="color: darkorange;">Reddit</a> for updates. Join our <span style="color:mediumspringgreen">BETA</span> testing!</h2>
+        <br>
+        <h4>You can support us by donating to our <a href="https://www.patreon.com/cubesouls" style="color: yellow">Patreon</a>.<br><br><b><u>Season 3 will be completely free to play.</u></b></h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- modal list -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modaltitle1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modaltitle1" style="font-style:italic;">Zuki, the Blademistress</h2>
+      </div>
+      <div class="modal-body">
+        <h3 class="spelldesc">Passive - Luna's Curse</h3>
+        <p>Zuki's sword is imbued with <span style="color: red">vampirism</span>, granting her <span style="color: rgb(255, 85, 85)">lifesteal</span>.</p>
+        <h3 class="spelldesc">Q - Blackslash</h3>
+        <p>Zuki slashes forward, striking her target with <span style="color: orange">physical damage</span>. She can cast it again within few seconds.</p>
+        <h3 class="spelldesc">W - Parry</h3>
+        <p>Grants base <span style="color: orange">Attack Damage</span>. When activated, Zuki uses her sword to deflect the next basic attack she's struck with, dealing <span style="color: cyan">magic damage</span>.</p>
+        <h3 class="spelldesc">E - Voracity</h3>
+        <p>For a short while, grants a burst of <span style="color: darkorange">Attack Speed</span>. Dealing damage during this effect grants <span style="color: rgb(16, 163, 114)">Movement Speed</span>. This spell's cooldown is refreshed when Zuki kills an hero.</p>
+        <h3 class="spelldesc">R - Last Shadow</h3>
+        <p>Consumed by hatred, Zuki becomes untargetable and strikes aimlessly, dealing <span style="color: orange">physical damage</span> to nearby enemy heroes. All basic attack modifiers are applied, but successive blows against the same hero deal reduced damage.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modaltitle2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modaltitle2" style="font-weight: 700; color: rgb(189, 147, 249);">Ring of Hatred</h2>
+      </div>
+      <div class="modal-body">
+        <h4 style="color:cyan;">+120 Ability Power</h4>
+        <h4>+10% Cooldown Reduction</h4>
+        <h5><span style="color:yellow;">UNIQUE</span> Active: Deals <span style="color: cyan;">15% (+5% per 100 Ability Power)</span> of target hero's maximum health in <span style="color: cyan;">magic damage</span>, then amplify all <span style="color: cyan;">magic damage</span> they take by 20% for 4 seconds (60 second cooldown).</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modaltitle3" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modaltitle3" style="font-style:italic;">Corrus, the Butcher</h2>
+      </div>
+      <div class="modal-body">
+        <h3 class="spelldesc">Passive - Blood Armor</h3>
+        <p>The Butcher stores part of the health drained by his abilities in his <span style="color: red">Blood Armor</span>, which deteriorates while he's not in combat. When Corrus dies, he drains his <span style="color: red">Blood Armor</span> to revive himself. Grants bonus <span style="color: orange">Attack Damage</span> and Armor based on how full the <span style="color: red">Blood Armor</span> is.</p>
+        <h3 class="spelldesc">Q - Crush</h3>
+        <p>Corrus teleports to a target location, dealing <span style="color: orange">physical damage</span> and stunning enemies around him as he arrives.</p>
+        <h3 class="spelldesc">W - Gluttony and Greed</h3>
+        <p>Passively heals The Butcher on every third attack.<br><span style="color: yellow">Activate</span> to exchange this effect for additional <span style="color: cyan">magic damage</span> in Corrus' basic attacks, in exchange of his health.</p>
+        <h3 class="spelldesc">E - Knightbane</h3>
+        <p>Corrus brandishes his sword, dealing <span style="color: cyan">magic damage</span> to enemies in his path at the cost of his health.</p>
+        <h3 class="spelldesc">R - Annihilation</h3>
+        <p>The Butcher unsheathes his sword, dealing <span style="color: orange">physical damage</span> around him and gaining additional <span style="color: darkorange">Attack Speed</span> and range for a few seconds.</p>
+        <p style="color: beige; font-style:italic;">- Developer Notes -<br>Yes, additional armor and a teleport instead of a slow dash. We want him back, but we don't want him to suck as bad as he did, let's be honest.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modaltitle4" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modaltitle4" style="font-weight: 700; color: rgb(189, 147, 249);">Nature's Cowl</h2>
+      </div>
+      <div class="modal-body">
+        <h4 style="color:lime;">+2 Health Regeneration</h4>
+        <h4 style="color: rgb(5, 209, 209);">+90 Magic Resistance</h4>
+        <h4>+10% Movement Speed</h4>
+        <h5><span style="color:yellow;">UNIQUE</span> Passive: Increases your health regeneration by 1.5% of your maximum health.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- menu modals -->
+<div class="modal fade" id="betamodal" tabindex="-1" role="dialog" aria-labelledby="betamodallabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="col-12 modal-title text-center" id="betamodallabel" style="font-size: 24px;">Beta Access</h5>
+      </div>
+      <div class="modal-body">
+        <h5>Season 3 is still in <span style="color:yellow">pre-alpha</span>, so we're not accepting beta applications <u>just yet</u>. However, our team has been working solely on the game for the past few months - <span style="color: cyan;">and will still do so for the rest of the year</span> - which considerably increases the project's development speed.</h5>
+        <h3 style="color:lime;">Join our social networks and don't miss our BETA release!</h3>
+        <p><i>Patrons receive alpha access as soon as it's up.</i></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 2 -->
+<div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="contactmodallabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="col-12 modal-title text-center" id="betamodallabel" style="font-size: 24px;">Contact</h5>
+      </div>
+      <div class="modal-body">
+        <p>We're quarantined, so we're pretty much <span style="color:yellow"><i>always</i></span> online on <a href="https://discord.gg/TjABeh9" style="color: #7289DA;">Discord</a> and <a href="https://twitter.com/season3game" style="color: cyan;">Twitter</a>. Hit us up!</p>
+        <br><br>
+        <h2>For business inquiries:</h2>
+        <address>
+        <a href="mailto:cubesoulsteam@gmail.com">
+        </address>
+        <h3 style="color: orange;">Our e-mail.</h3>
+        </a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+  <footer class="mastfoot mt-auto text-center foot pt-4">
+    <a class="imgicon" href="https://discord.gg/TjABeh9" target="_blank" rel="noopener noreferrer"> 
+      <img class="mr-3" src="/media/discord.png" alt="Discord">
+    </a>
+    <a class="imgicon" href="https://twitter.com/cubesoulsteam" target="_blank" rel="noopener noreferrer"> 
+      <img class="mr-3" src="/media/twitter.png" alt="Twitter">
+    </a>
+    <a class="imgicon" href="https://twitch.tv/nullcst" target="_blank" rel="noopener noreferrer"> 
+      <img class="mr-3" src="/media/twitch.png" alt="Twitch">
+    </a>
+    <a class="imgicon" href="https://www.youtube.com/channel/UCLsZ7XiuWcYNncWoNLsb0Xg" target="_blank" rel="noopener noreferrer"> 
+      <img class="mr-3" src="/media/youtube.png" alt="YouTube">
+    </a>
+    <a class="imgicon" href="https://www.patreon.com/cubesouls" target="_blank" rel="noopener noreferrer"> 
+      <img class="mr-3" src="/media/patreon.png" alt="Patreon">
+    </a>
+    <div class="inner">
+      <p><i>This website is still under construction. We'll soon be adding the game's entire database to it. Stay tuned!</i></p>
+    </div>
+  </footer>
+</html>
